@@ -41,7 +41,7 @@ export default function Page() {
 				<Stack>
 					<Title>Mooney's Bookstore</Title>
 					<Text maw={670}>
-						Mooney's Bookstore is a small commercial property found on York Avenue in Manhattan
+		
 					</Text>
 				</Stack>
 			</Group>
