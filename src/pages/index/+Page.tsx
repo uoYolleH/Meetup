@@ -39,7 +39,7 @@ export default function Page() {
 			<Group>
 				<Spacer />
 				<Stack>
-					<Title>Mooney's Bookstore</Title>
+					<Title></Title>
 					<Text maw={670}>
 		
 					</Text>
