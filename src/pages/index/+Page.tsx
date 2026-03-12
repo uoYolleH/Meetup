@@ -21,7 +21,7 @@ export default function Page() {
 					<Button
   						onClick={() =>
     						modals.open({
-      							title: "Joe's Apartmen",
+      							title: "Joe's Apartment",
 								size: "auto",
 								centered: true,
       							children: (
