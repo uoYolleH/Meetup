@@ -32,25 +32,25 @@ export function Navigation() {
 						className={classes.link}
 						onClick={() => navigate("/")}
 					>
-						Joe Goldberg
+						Home
 					</UnstyledButton>
 					<UnstyledButton
 						className={classes.link}
-						onClick={() => navigate("/guinevere")}
+						onClick={() => navigate("/summer")}
 					>
-						Guinevere Beck
+						Spring/Summer
 					</UnstyledButton>
 					<UnstyledButton
 						className={classes.link}
-						onClick={() => navigate("/love")}
+						onClick={() => navigate("/fall")}
 					>
-						Love Quinn
+						Fall
 					</UnstyledButton>
 					<UnstyledButton
 						className={classes.link}
-						onClick={() => navigate("/marienne")}
+						onClick={() => navigate("/winter")}
 					>
-						Marienne Bellamy
+						Winter
 					</UnstyledButton>
 				</Group>
 			</Paper>
