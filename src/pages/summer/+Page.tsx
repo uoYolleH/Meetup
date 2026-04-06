@@ -55,9 +55,9 @@ export default function Page() {
 			</Group>
             <Group>
                 <Stack>
-                    <Title>Canada's Wonderland (hah)</Title>
+                    <Title>Canada's Wonderland</Title>
                     <Text maw={670}>
-                        This one is unlikely, but hear it out lmao. Wonderland is open all summer and has much more to do than roller coasters. Theres flat rides, arcades, bumper cars, short go karting, etc. Plus it could be a chance to go on a tame coaster and see if you can conquer your fears.
+                        Wonderland is open all summer and has much more to do than roller coasters. Theres flat rides, arcades, bumper cars, short go karting, etc.
                         <List>
                             <List.Item>Roller Coasters</List.Item>
                             <List.Item>Flat Rides (such as spinning cups, spinovator, sledgehammer)</List.Item>
