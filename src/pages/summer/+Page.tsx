@@ -6,9 +6,10 @@ import wonderland from "../../assets/img/wonderland/Wonderland.jpg";
 import alpen from "../../assets/img/wonderland/1752157227-20250710-alpenfury-wonderland-opening-2.jpg";
 import nightmare from "../../assets/img/wonderland/Nightmareeeeeeeees.webp";
 import sledgehammer from "../../assets/img/wonderland/0812sldg.jpg";
-import kart1 from "../../assets/img/gokart/trophy2.webp";
-import kart2 from "../../assets/img/gokart/MG_2948-min-1024x683.webp";
-import track from "../../assets/img/gokart/appointmentType-14371482.jpg";
+import kart1 from "../../assets/img/gokart/k1.jpg";
+import kart2 from "../../assets/img/gokart/slide-3-karts-mobile.jpg";
+import kart3 from "../../assets/img/gokart/606f5055-e1510130239335.jpg";
+import track from "../../assets/img/gokart/K1SpeedCambridge-KylePooleMedia-10-min.webp";
 import med1 from "../../assets/img/medievaltimes/Ticket+2.webp";
 import med2 from "../../assets/img/medievaltimes/MT-8957_web.jpg";
 import med3 from "../../assets/img/medievaltimes/Medieval-Times-Toronto-3-1-620x413.jpg";
@@ -82,59 +83,6 @@ export default function Page() {
                                 <SimpleGrid cols={2} spacing={50}>
                                     <Image src={alpen} w={500} h={300} />
                                     <Image src={nightmare} w={500} h={300} />
-                                    <Image src={sledgehammer} w={500} h={300} />
-                                </SimpleGrid>
-                            ),
-                        })
-                    }
-                    style={{
-                        cursor: "pointer",
-                        borderTopLeftRadius: "75px",
-                        borderBottomRightRadius: "75px",
-                        transition: "transform 0.25s ease, box-shadow 0.25s ease",
-                      }}
-                      onMouseEnter={(e) => {
-                        e.currentTarget.style.transform = "scale(1.05)";
-                        e.currentTarget.style.boxShadow = "0 0 0 3px white";
-                      }}
-                      onMouseLeave={(e) => {
-                        e.currentTarget.style.transform = "scale(1)";
-                        e.currentTarget.style.boxShadow = "none";
-                      }}
-                />
-            </Group>
-            <Group>
-                <Stack>
-                    <Title>Go Karting</Title>
-                    <Text maw={670}>
-                        Cameroon Speedway hosts a fast Go Karting season called "Canadian Mini Indy". This is far more exilerating than basic Go Karting due to its speed and changing track layouts.
-                        <List>
-                            <List.Item>Changing Track layout through season</List.Item>
-                            <List.Item>Speeds of 75km+</List.Item>
-                            <List.Item>Helmets are provided</List.Item>
-                        </List>
-                    </Text>
-                    <Text maw={670}>
-                        The season lasts from April 21st to October 26th. Pricing is on the higher end, with season membership being <b>$120</b> and every day you join is <b>$77</b>.
-                        <br></br>
-                        There are more than 200 days we can choose to race, with all weekday races starting at 6pm and weekend races starting at 10am. <Anchor href="https://hamiltonkartingcomplex.com/wp-content/uploads/Canadian-Mini-Indy-Racing-and-Practice-Schedule.pdf" target="_blank">Here is the schedule</Anchor> that shows all race days and special event days too.
-                    </Text>
-                </Stack>
-                <Spacer />
-                <Image
-                    src={kart1}
-                    w={500}
-                    h={300}
-                    onClick={() =>
-                        modals.open({
-                            title: "Go Karting",
-                            size: "1100px",
-                            centered: true,
-                            transitionProps: { transition: "pop", duration: 200 },
-                            children: (
-                                <SimpleGrid cols={2} spacing={50}>
-                                    <Image src={kart2} w={500} h={300} />
-                                    <Image src={track} w={500} h={300} />
                                     <Image src={sledgehammer} w={500} h={300} />
                                 </SimpleGrid>
                             ),

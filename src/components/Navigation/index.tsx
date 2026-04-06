@@ -36,6 +36,12 @@ export function Navigation() {
 					</UnstyledButton>
 					<UnstyledButton
 						className={classes.link}
+						onClick={() => navigate("/all year")}
+					>
+						All Year
+					</UnstyledButton>
+					<UnstyledButton
+						className={classes.link}
 						onClick={() => navigate("/summer")}
 					>
 						Spring/Summer
